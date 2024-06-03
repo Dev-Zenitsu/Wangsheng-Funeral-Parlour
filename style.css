@@ -1,0 +1,236 @@
+/* FONTS */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Myeongjo);
+
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+button {
+    border: 2px;
+    border-radius: 2em;
+
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    flex: 1 0 auto;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    max-height: 50%;
+}
+a:hover {
+    color: #8a5e53;
+}
+
+/* HEADER */
+header {
+    background-color: #49070c;
+    color: white;
+    padding: 0 3em;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 1.2em;
+    font-family: 'Nanum Myeongjo';
+    font-weight: bold;
+}
+ul {
+    font-size: 0.8em;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#sources {
+    background-color: #240f0c;
+    color: white;
+    padding: 5px 1em;
+}
+
+/* HOME */
+.home {
+    background-image: 
+    
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(60, 7, 15, 0.527),
+      rgb(60, 7, 15)
+    ), url('./images/wangsheng.png');
+    background-size: cover;
+    padding: 5em;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+.container-text {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.home .heading {
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+.container-text .text {
+    padding-bottom: 1em;
+}
+.container-text .reservation {
+    background-color: #893d2a;
+    color: white;
+    padding: 5px 1em;
+    box-shadow: 1px 1px 3px 0.1px #240f0c;
+}
+.container-text .reservation a:hover {
+    color: #49070c;
+}
+.home-pic {
+    max-width: 500em;
+    border-radius: 3em;
+    box-shadow: 2px 2px 5px 0.1px #240f0c;
+}
+
+/* STAFF */
+.staff {
+    background-color: rgb(60, 7, 15);
+    color: white;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.staff .heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.2em;
+}
+.members {
+    display: flex;
+    flex: 1 1 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.member {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 0.4rem;
+    flex: 0 1 10em;
+    justify-content: center;
+    align-items: center;
+}
+.staff-pics {
+    border-radius: 1.5em;
+    border: solid;
+    border-color: #893d2a;
+    border-width: 2px;
+}
+.name {
+    font-family: 'Nanum Myeongjo';
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.member .text {
+    font-size: 0.8em;
+}
+
+/* QUOTE */
+#quote {
+    background-image: 
+    
+    linear-gradient(
+      rgb(60, 7, 15),
+      rgba(60, 7, 15, 0.733),
+      rgba(0, 0, 0, 0.35)
+    ), url('./images/wangsheng2.png');
+    background-size: cover;
+    padding: 5em;
+    color: white;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+.quote-text {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.cited-by {
+    font-size: 0.9em;
+}
+
+/* MODAL */
+#modal {
+    background-color: #49070c;
+    color: white;
+    box-shadow: -5px -5px 10px #240f0c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: #893d2a;
+    margin: 5em;
+    padding: 2em;
+    box-shadow: 1px 1px 3px 0.1px #240f0c;
+    border-radius: 2em;;
+
+    display: flex;
+    flex-flow: column wrap;
+    flex-basis: 50em;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+.modal .heading {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.bg-modal .reservation {
+    background-color:rgb(60, 7, 15);
+    padding: 5px 1em;
+    box-shadow: 1px 1px 3px 0.1px #240f0c;
+}
+
+/* FOOTER */
+footer {
+    background-color: #240f0c;
+    color: white;
+    padding: 1em 3em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright {
+    display: flex;
+    flex-direction: column;
+}
+.copyright .text {
+    font-size: 0.6em;
+}
+footer .text {
+    font-size: 0.8em;
+}
