@@ -7,4 +7,6 @@ YouTube videos used in this project:
 2. Character Demo - "Zhongli: The Listener" | Genshin Impact
 3. Character Demo - "Hu Tao: Let the Living Beware" | Genshin Impact
 
+Link👇
+<br>
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://dev-zenitsu.github.io/Wangsheng-Funeral-Parlour/)
